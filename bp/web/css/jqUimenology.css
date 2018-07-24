@@ -1,0 +1,35 @@
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background: #f9f9f9;
+    height: 20px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.ui-datepicker-header{
+    background: -webkit-linear-gradient(left, #1de6b8 ,#1dcbe0); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #1de6b8, #1dcbe0); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #1de6b8, #1dcbe0); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #1de6b8, #1dcbe0); /* 标准的语法（必须放在最后） */
+
+}
+.ui-datepicker .ui-datepicker-title{
+	background: -webkit-linear-gradient(left, #1de6b8 ,#1dcbe0); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #1de6b8, #1dcbe0); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #1de6b8, #1dcbe0); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #1de6b8, #1dcbe0); /* 标准的语法（必须放在最后） */
+}
+.ui-state-default, .ui-widget-content .ui-state-default{
+	border: none;
+	background: #fff;
+    font-weight: 400;
+    color: #555;
+	text-align: center;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    background: #1dcddd url(images/ui-bg_glass_55_fbf9ee_1x400.png) 50% 50% repeat-x;
+    color: #363636;
+    border-radius: 5px;
+}
+
+.ui-datepicker-year{color:white;}

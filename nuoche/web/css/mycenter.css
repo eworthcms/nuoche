@@ -1,0 +1,77 @@
+@charset "utf-8";
+html,body{
+	width: 100%;
+	height: 100%;
+	box-sizing:border-box;
+}
+body{
+	background: url(../imgs/concat/bg.jpg) no-repeat;
+	background-size: 100%;
+}
+.bg-box{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+/*个人中心*/
+.my-center{
+	height: 2.45rem;
+	width: 100%;
+	padding-top: 0.61rem;
+}
+.mycenter-section{
+	height: 1.44rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.mycenter-section .portrait-icon{
+	width: 0.75rem;
+	height: 0.75rem;
+	border-radius: 0.375rem;
+	border: 0.005rem solid #fff;
+}
+.mycenter-section .num-title{
+	font-size: 0.27rem;
+	color: #fff;
+}
+.bind-section{
+	width: 100%;
+	height: 0.19rem;
+	display: flex;
+	justify-content: center;
+}
+.bind-section p{
+	font-size: 0.17rem;
+	color: #fff;
+	/*float: left;*/
+}
+.bind-section .agree-icon{
+	width: 0.19rem;
+	height: 0.19rem;
+	margin-left: 0.06rem;
+	/*float: left;*/
+}
+/*二维码中心*/
+.erweima-center{
+	display: flex;
+	flex: 1;
+	padding-top: 0.7rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #fff;
+}
+.erweima-center .erweima{
+	width: 1.62rem;
+	height: 1.782rem;
+	margin-bottom: 0.11rem;
+}
+.erweima-save{
+	font-size: 0.13rem;
+	color: #000;
+}

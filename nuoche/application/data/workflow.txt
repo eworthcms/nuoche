@@ -1,0 +1,80 @@
+广告主  
+    home/index
+    ad/link_list
+    sms/sms_list
+    phone/telemarketing
+    user/account
+    stat/index
+ 责任人
+    customer/work_list  工单列表
+    customer/account  账号信息
+ 管理后台
+    manage/preview  预览
+    manage/audit   短信审核
+    manage/account  账号管理
+    manage/system   系统管理
+    manage/log  日志管理
+ 
+广告主
+   
+ <li <?php if($layout['controller']=='home'){?>class="home-box"<?php }?>>
+          <img src="<?php echo base_url('img/index.png'); ?>"/>
+          <a href="/home/index">首&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页</a>
+        </li>
+        <li <?php if($layout['controller']=='ad'){?>class="advertising-box"<?php }?>>
+          <img src="<?php echo base_url('img/advertisement.png'); ?>"/>
+          <a href="/ad/link_list">广告优化</a>
+        </li>
+        <li <?php if($layout['controller']=='sms'){?>class="mess-box"<?php }?>>
+          <img src="<?php echo base_url('img/mess.png'); ?>"/>
+          <a href="/sms/sms_list">短信营销</a>
+          
+        </li>
+        <li <?php if($layout['controller']=='phone'){?>class="tel-box"<?php }?>> <!-- class="tel-box" -->
+          <img src="<?php echo base_url('img/tel2.png'); ?>"/>
+          <a href="/phone/telemarketing">电话营销</a>
+        </li>		
+        <li <?php if($layout['controller']=='user'){?>class="user-box"<?php }?>><!-- class="user-box" -->
+          <img src="<?php echo base_url('img/user2.png'); ?>"/>
+          <a href="/user/account">账户中心</a>
+        </li>
+        <li <?php if($layout['controller']=='stat'){?>class="data-box"<?php }?>>
+          <img src="<?php echo base_url('img/data.png'); ?>"/>
+          <a href="/stat/index">数据统计</a>
+        </li>
+        
+        
+ 客服       
+        <li <?php if($layout['controller']=='customer' && $layout['action']=='work_list'){?>class="myWork-box"<?php }?>>
+			<img src="<?php echo base_url();?>img/index.png"/>
+			<a href="/customer/work_list">我的工单</a>
+		</li>
+		<li <?php if($layout['controller']=='customer' && $layout['action']=='account'){?>class="user-box"<?php }?>>
+			<img src="<?php echo base_url();?>img/advertisement.png"/>
+			<a href="/customer/account">账户中心</a>
+		</li>
+		
+		
+管理后台
+
+	<li <?php if($layout['controller']=='manage' && $layout['action']=='preview'){?>class="data-box"<?php }?>>
+						<img src="<?php echo base_url();?>img/index.png"/>
+						<a href="/manage/preview">数据概览</a>
+					</li>
+					<li <?php if($layout['controller']=='manage' && $layout['action']=='audit'){?>class="Mess-box"<?php }?>>
+						<img src="<?php echo base_url();?>img/advertisement.png"/>
+						<a href="/manage/audit">短信审核</a>
+					</li>
+					<li <?php if($layout['controller']=='manage' && $layout['action']=='account'){?>class="iTunes-box"<?php }?>>
+						<img src="<?php echo base_url();?>img/mess.png"/>
+						<a href="/manage/account">账号管理</a>
+						
+					</li>
+					<li <?php if($layout['controller']=='manage' && $layout['action']=='system'){?>class="system-box"<?php }?>>
+						<img src="<?php echo base_url();?>img/tel2.png"/>
+						<a href="/manage/system">系统管理</a>
+					</li>
+					<li <?php if($layout['controller']=='manage' && $layout['action']=='log'){?>class="handle-box"<?php }?>>
+						<img src="<?php echo base_url();?>img/user.png"/>
+						<a href="/manage/log">操作日志</a>
+				</li>		

@@ -1,0 +1,24 @@
+﻿body,html{ height: 100%; }
+
+#head{ background: transparent; }
+#head .top{ height: 82px; background: #fff; box-shadow: 0 1px 5px #c8c8c8; }
+#head h1{ float: left; padding: 20px 0 0 35px; }
+#head .tbtn-exit{ float: right; cursor: pointer; width: 82px; height: 82px; background:#24bddf url(../img/exit.png) center center no-repeat; }
+#head .tbtn-exit:hover{ background-color: #18b3d5; }
+#head .login-text{ float: right; padding-right: 95px; line-height: 82px; font-size: 14px; color: #262626; }
+#head .login-text .username{ color: #24bddf; }
+#head .breadNav{ font-size:14px;color: #b9b9b9; line-height: 82px; margin-left: 218px; padding-left: 48px; height: 82px; overflow: hidden; background: url(../img/home-gray.png) 0 center no-repeat; }
+#head .breadNav .jt,#head .breadNav a{ color: #b9b9b9;}
+#head .breadNav .cur{ color: #b9b9b9; }
+
+#Lt{ width: 180px; background: #2e3e4e; top: 82px;bottom:auto; }
+.menu-left{}
+.menu-left li{ height: 70px; line-height: 70px; position: relative; }
+.menu-left .link{ display: block; padding-left: 30px; }
+.menu-left .iF{ float: left; color: #fff;}
+
+.menu-left .t{ display: block; font-size: 14px; color: #fff; margin-left: 37px; }
+.menu-left .icon-new-red,.menu-left .icon-new-green{ right: 10px; top: 28px; display: block; width: 30px; height: 14px; position: absolute; }
+.menu-left .icon-new-red{ background: url(../img/new-red.png); }
+.menu-left .icon-new-green{ background: url(../img/new-green.png); }
+.menu-left .cur .link{ background: url(../img/m-cur.png) 0 0 no-repeat; }

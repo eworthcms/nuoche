@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/concat.css"/>
+	</head>
+	<body>
+		<div class="bg-box">
+			<!--挪车总数量部分-->
+			<div class="sum-num">
+				<div class="sum-num-outside">
+					<div class="sumnum-section">
+						<img class="sum-icon" src="../imgs/concat/sum-icon.png"/>
+						<p class="sumnum-title">总共挪车数：<span>14329</span></p>
+					</div>
+					<div class="todaynum-section">
+						<img class="today-icon" src="../imgs/concat/today-icon.png"/>
+						<p class="todaynum-title">今日挪车数：<span>533</span></p>
+					</div>
+				</div>
+			</div>
+			
+			<!--联系车主部分-->
+			<div class="concat-master">
+				<div class="concatmaster-section">
+					<!--<button class="concatmaster-button"></button>-->
+					<!--<img class="concat-icon" src="../imgs/concat/concat-icon.png"/>-->
+					<div class="border">
+						<img class="tel-icon" src="../imgs/concat/tel-icon.png"/>
+					</div>
+					
+					
+					<p class="concatmaster-title">点击呼叫车主，速来挪车</p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="../js/mobileScreen.js"></script>
+	</body>
+</html>
+<script type="text/javascript" src="../js/jquery-1.10.2.js"></script>
+<script type="text/javascript">
+	$(function(){
+		function move(){
+			$('.border').removeClass('to-down').addClass('animation');
+			setTimeout(function(){
+				wait();
+			}, 800);
+		}		
+		function wait() {
+			$('.border').removeClass('animation').addClass('to-down');
+			setTimeout(function(){
+				move();
+			}, 800);
+		}
+		move();
+	});
+</script>
+

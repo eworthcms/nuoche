@@ -1,0 +1,178 @@
+@charset "utf-8";
+html,body{
+	width: 100%;
+	height: 100%;
+	box-sizing:border-box;	  	
+}
+body{background: url(../imgs/concat/bg.jpg) no-repeat;}
+.bg-box{
+	width: 100%;
+	height: 100%;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;  
+}
+/*logo*/
+#logo{
+	height: 2.28rem;
+	width: 100%;
+	padding-top: 0.54rem;
+	display: flex;
+	justify-content: center;
+}
+#logo img{
+	height: 1.19rem;
+	width: 0.77rem;
+}
+/*表单区域*/
+#section{
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	width: 100%;
+}
+.section-con{
+	width: 2.65rem;
+	display: flex;
+	flex-direction: column;	
+	position: relative;	
+}
+.section-con i{
+	font-size: 0.12rem!important;
+	color: #fff;
+	margin-right: 0.06rem;
+}
+.section-con p{
+	font-size: 0.1rem;
+	color: #fff;
+    margin-bottom: 0.25rem;
+    margin-top: 0.14rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.section-con p i{
+	font-size: 0.1rem;
+	color: #fff;
+    
+}
+/*表单样式*/
+.section-con .tel-num,.section-con .car-num{
+	height: 0.45rem;
+	width: 2.65rem;
+	display: flex;
+	position: relative;
+	margin-bottom: 0.095rem;
+}
+.section-con .car-num,.agree{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0;
+}
+.agree{
+	justify-content: flex-start;
+	margin-top: 0.095rem
+}
+.section-con  input,button{
+	border: none;
+	outline: none;
+	background: #121510;
+	border-radius: 0.375rem;
+}
+.send-random-num{
+    width: 0.93rem;
+    height: 0.335rem;
+    position: absolute;
+    border-bottom-right-radius: 0.225rem;
+    border-top-right-radius: 0.225rem;
+    position: absolute;
+    top: 0.0575rem;
+    right: 0;
+    text-align: center;
+    line-height: 0.375rem;
+    font-size: 0.11rem;
+    color: #7a7a7a;	
+    border-left: 0.01rem solid #fff;
+}
+.send-random-num p{
+	color: #FFFFFF;
+	font-size: 0.11rem;
+	margin-top: 0; 
+	margin-left: 0.11rem;
+}
+.section-con  input{
+	height: 0.45rem;
+	padding-left: 0.41rem;
+	margin-bottom: 0.19rem;
+	padding-left: 0.205rem;
+	margin-bottom: 0.095rem;
+	color: #969896;
+	border: 0.005rem solid #fff;
+	font-size: 0.13rem;
+}
+.section-con  .write-car-num{
+	width: 1.5rem;
+}
+.section-con  select{
+	height: 0.45rem;
+	width: 1rem;
+	color: #969896;
+	border: none;
+	outline: none;
+	background: #54575a;
+	padding-left: 0.205rem;
+	border-radius: 0.375rem;
+	background-color:transparent;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	/*消除这些样式，还不能够解决我们的问题，消除了样式之后的select框就连边框都没有了，我们需要为它加上边框和右侧的黑色下拉三角*/
+	/*border: 1px solid #ccc;*/
+	/*下拉三角需要图片*/
+	/*background: url(../imgs/down.png) no-repeat right center transparent;*/
+	background: url(../imgs/register/down.png) no-repeat 0.7rem center transparent;
+	background-size: 0.15rem;
+	border: 0.005rem solid #fff;
+}
+
+
+/*input 中定位的几个元素*/
+.fisrt-num{
+	width: 0.275rem;
+	height: 0.135rem;
+	position: absolute;
+	left: 0.205rem;
+	top: 0.16rem;
+	color: #fff;
+	font-size: 0.12rem;
+	line-height: 0.135rem;
+	border-right: 1px solid #fff;
+}
+.section-con  input:nth-child(1){
+	padding-left: 0.585rem;
+}
+.section-con button{
+	background: -webkit-linear-gradient(to right,#4853e5,#18d6ac);
+    background: linear-gradient(to right,#4853e5,#18d6ac);
+    color: #fff;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.375rem;
+    margin-bottom: 0.095rem;
+    width: 100%;
+    margin-top: 0.095rem
+}
+/*错误提示*/
+.userTel{
+	display: none;
+}
+.section-con{
+	height: 2.8rem;
+}
+.section-con h6{
+	font-size: 0.11rem;
+	color: #fff;
+	margin-bottom: 0.095rem;	
+}
+.randomNumTip{
+	display: none;  
+}

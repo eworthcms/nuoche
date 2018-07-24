@@ -1,0 +1,44 @@
+@charset "utf-8";
+html,body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+a{text-decoration:none}
+ul,ol,li{list-style: none;}
+img{border:0;display:block;}
+body{font-family:"微软雅黑";}
+b,strong{font-weight:100;color: #333;}
+i,em{font-style:normal;color: #333;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:100;color: #333;}
+*{box-sizing:border-box;}
+.clearfix:after{content:".";clear:both;display:block;height:0;overflow:hidden;visibility: hidden;}
+/*placeholder样式*/
+input::-webkit-input-placeholder { /* WebKit browsers*/ 
+　　color: #fff;
+	font-size: 0.13rem;
+}
+input:-moz-placeholder {  /* Mozilla Firefox 4 to 18*/ 
+　　color: #fff;
+	font-size: 0.13rem;
+　　}
+input::-moz-placeholder {  /* Mozilla Firefox 19+*/ 
+　　color: #fff;
+	font-size: 0.13rem;
+　　}
+input:-ms-input-placeholder { /* Internet Explorer 10+*/ 
+　     color: #fff;
+	font-size: 0.13rem;
+}
+select::-webkit-input-placeholder { /* WebKit browsers*/ 
+　　color: #fff;
+	font-size: 0.13rem;
+}
+select:-moz-placeholder {  /* Mozilla Firefox 4 to 18*/ 
+　　color: #fff;
+	font-size: 0.13rem;
+　　}
+select::-moz-placeholder {  /* Mozilla Firefox 19+*/ 
+　　color: #fff;
+	font-size: 0.13rem;
+　　}
+select:-ms-input-placeholder { /* Internet Explorer 10+*/ 
+　     color: #fff;
+	font-size: 0.13rem;
+}

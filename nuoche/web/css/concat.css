@@ -1,0 +1,141 @@
+@charset "utf-8";
+html,body{
+	width: 100%;
+	height: 100%;
+	box-sizing:border-box;	  	
+}
+body{
+	background: url(../imgs/concat/bg.jpg) no-repeat;
+	background-size: 100%;
+	}
+.bg-box{
+	width: 100%;
+	height: 100%;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;  
+}
+
+/*挪车总数*/
+.sum-num{
+	height: 1.835rem;
+	width: 100%;
+	padding-top: 0.78rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sum-num-outside{
+	width: 100%;
+	padding: 0 0.15rem;
+}
+.sumnum-section{
+	height: 0.865rem;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	float: left;
+}
+.sumnum-section .sum-icon{
+	width: 0.55rem;
+	height: 0.55rem;
+}
+.sumnum-section .sumnum-title{
+	color: #fff;
+	font-size: 0.14rem;
+}
+/*今日挪车数量*/
+.today-num{
+	height: 1.235rem;
+	width: 100%;
+	padding-top: 0.38rem;
+}
+.todaynum-section{
+	height: 0.86rem;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	float: left;
+}
+.todaynum-section .today-icon{
+	height: 0.56rem;
+	width: 0.56rem;
+}
+.todaynum-section .todaynum-title{
+	color: #fff;
+	font-size: 0.14rem;
+}
+
+/*联系车主*/
+.concat-master{
+	display: flex;
+	flex: 1;
+}
+.concatmaster-section{
+	/*height: 2.08rem;*/
+	height: 2.28rem;
+	width: 100%;
+	padding-top: 0.39rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+/*.concat-icon{
+	height: 1.33rem;
+	width: 1.33rem;
+	/*border: none;
+	outline: none;*/
+	/*margin-left: 4.4%;*/
+	/*background: url(../imgs/concat/concat-icon.png) no-repeat;*/
+	/*background-size: 100%;*/
+	/*margin-bottom: 0.28rem;*/
+/*}*/
+.concatmaster-section .border{
+	height: 1.33rem;
+	width: 1.33rem;
+	border: 0.001rem solid #4853E5;
+	padding: 0.135rem;
+	border-radius: 0.665rem;
+}
+
+.border .tel-icon{
+	height: 1.06rem;
+	width: 1.06rem;	
+}
+.concatmaster-section .concatmaster-title{
+	color: #fff;
+	font-size: 0.17rem;
+	margin-top: 0.28rem;
+}
+/*电话效果*/
+@keyframes mymove
+{
+	from { 
+			transform:scale(1.3);//设置缩放比例
+            -ms-transform:scale(1.3);
+            -webkit-transform:scale(1.3);
+            -o-transform:scale(1.3);
+            -moz-transform:scale(1.3);
+          }
+	to {
+			-ms-transform:scale(1);
+            -webkit-transform:scale(1);
+            -o-transform:scale(1);
+            -moz-transform:scale(1);
+        }
+}
+
+.animation {
+	animation:mymove 1s infinite;
+}
+.to-down {
+	-ms-transform:scale(1);
+    -webkit-transform:scale(1);
+    -o-transform:scale(1);
+    -moz-transform:scale(1);
+}

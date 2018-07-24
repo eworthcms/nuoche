@@ -1,0 +1,342 @@
+@charset "utf-8";
+/*遮罩*/
+html,body{
+	/*height: 100%;*/
+	min-height:100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+#mark{
+	width: 100%;
+	height: 100%;
+	background: #222F3C;
+	position: absolute;
+	z-index: 10;
+	opacity: 0.4;
+	display: none;	
+}
+.navList .myWork-box{
+	background: #1c2732;
+	width: 179px;
+	border-left: 6px solid #257adc;
+}
+.advertising-box {
+	background: #1c2732;
+	width: 179px;
+	border-left: 6px solid #257adc;
+}
+
+.home-box {
+	background: #1c2732;
+	width: 179px;
+	border-left: 6px solid #257adc;
+}
+
+.user-box {
+	background: #1c2732;
+	width: 179px;
+	border-left: 6px solid #257adc;
+}
+
+/**********************右侧部分***********************/
+#terraceRight-session{
+	height: 720px;
+	min-height: 720px;
+	position: absolute;
+	left: 14%;
+	width: 85%;
+}
+/*标题部分*/
+#terraceRight-session .terraceRight-title{
+	height: 71px;
+	width: 1201px;
+	width: 100%;
+	padding-left: 31px;
+	background: #fff;
+	-moz-box-shadow:0px 3px 7px #cfd5d9;
+    -webkit-box-shadow:0px 3px 7px #cfd5d9;
+    box-shadow:0px 3px 7px #cfd5d9;
+}
+.terraceRight-title h5{
+	width: 144px;
+	line-height: 71px;
+	color: #666666;
+	font-size: 18px;
+	font-weight: 600;
+	float: left;
+}
+.terraceRight-title p{
+	line-height: 71px;
+	font-size: 12px;
+	color: #6b6b6b;
+	float: left;
+}
+.exit{
+	height: 71px;
+	width: 103px;
+	float: right;
+}
+.exit img{
+	margin-top: 29px;
+	margin-right: 15px;
+	float: left;
+}
+.exit a{
+	font-size: 12px;
+	color: #6b6b6b;
+	float: left;
+	line-height: 71px;
+}
+.terraceRight-pageSession {
+    min-height: 533px;
+     _height: 533px;
+    width: 1202px;
+    margin-top: 10px;
+}
+/*标题下部分*/
+.terraceRight-page{
+	min-height: 624px;
+	/*height: 624px;*/
+	width: 1217px;
+	width: 100%;
+	margin-top: 3px;
+	background: #eef5f9;
+	padding-top: 22px;
+	padding-left: 15px;	
+}
+.terraceRight-page-top{
+	/*width: 1185px;*/
+	width: 97%;
+	height: 48px;
+	background: #fff;
+	padding-left: 17px;
+	border-radius: 6px;
+	-moz-box-shadow:0px 3px 7px #cfd5d9;
+    -webkit-box-shadow:0px 3px 7px #cfd5d9;
+    box-shadow:0px 3px 7px #cfd5d9;
+}
+.terraceRight-page-top p{
+	font-size: 12px;
+	color: #222f3c;
+	line-height: 48px;
+	font-weight: 600;
+}
+.terraceRight-page-top p span{
+	color: #1e88e5;
+}
+/*列表部分样式*/
+.ticket-list table {
+    font-size: 12px;
+    border-collapse: collapse;
+    /*width: 1202px;*/
+    width: 100%;
+    border: none;
+}
+.second-table{
+	margin-top: 20px;
+	height: 120px;
+	overflow-x: hidden;
+    overflow-y: scroll;
+}
+.ticket-list table td {
+    border: none;
+    text-align: center;
+}
+
+.ticket-list table td p{
+    cursor: pointer;
+}
+.ticket-list .compile{
+	cursor: pointer;
+}
+.ticket-list table tr:nth-of-type(odd) {
+    background: #f5f5f5;
+}
+.ticket-list table tr {
+    border: none;
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+.ticket-list {
+    width: 1202px;
+    width: 100%;
+  	/*height: 350px;*/
+  	min-height: 350px;
+}
+.terraceRight-pageSession {
+    height: 533px;
+    min-height: 533px;
+    /*width: 1202px;*/
+    width: 98%;
+    margin-top: 10px;
+}
+/*内容区域*/
+.pageSession-content{
+	min-height: 530px;
+	margin-top: 10px;
+	_height: 530px
+	background: #fff;
+	position: relative;
+	width: 98%;
+	-moz-box-shadow:0px 3px 7px #cfd5d9;
+    -webkit-box-shadow:0px 3px 7px #cfd5d9;
+    box-shadow:0px 3px 7px #cfd5d9;
+}
+
+.pageSession-top {
+    height: 54px;
+    width: 100%;
+    border-bottom: 1px solid #F2F2F2;
+    background: #fff;
+    position: relative;
+}
+.Now-people {
+    width: 25%;
+    height: 55px;
+    float: left;
+    padding-left: 17px;
+}
+.Now-people p{
+    font-size: 12px;
+    line-height: 55px;
+}
+.Now-people p span {
+    color: #e13a3b;
+}
+.timeBox {
+    height: 55px;
+    width: 72%;
+    float: left;
+    line-height: 55px;
+    /*position: relative;*/
+}
+.timeBox i,.timeBox label{
+    font-size: 12px;
+    color: #000;
+}
+.timeBox input,.timeBox select{
+	outline: none;
+	height: 26px;
+	width: 15%;
+	border-radius: 4px;
+	border: none;
+	border: 1px solid #d2d2d2;
+	margin-right: 10px;
+	font-size: 12px;
+	padding-left: 3px;
+}
+.timeBox input{
+	height: 22px;
+}
+.timeBox select{
+	width: 10%;
+}
+.timeBox select:nth-child(3){
+	margin-right: 10px;
+}
+
+
+/*地址样式*/
+.terraceRight-page .address-box{
+	height: 34px;
+	width: 100%;
+}
+.terraceRight-page a{
+	line-height: 34px;
+	color: #c6d2dd;
+	margin-left: 467px;
+	font-size: 14px;
+}
+/*添加列表高度*/
+.oldTelList{
+	min-height: 447px;
+	
+	_height: 447px;
+	background: #fff;
+}
+#dataBox{
+	min-height: 487px;
+	_height:487px;
+}
+/***二维码样式***/
+.ticket-list .erweima-td{
+	position: relative;
+}
+tr .erweima-td a{
+	font-size: 12px;
+	color: #000000;
+    margin-left: 0;
+}
+/****弹窗****/
+.pop-up-windows{
+	display: none;
+	position: fixed;
+	height: 330px;
+	width: 310px;
+	background: #fff;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 120px auto;
+	z-index: 100;
+	border-radius: 5px;
+	border: 1px solid #ededed;
+	padding: 10px;
+}
+.icon-guanbi{
+	position: absolute;
+	right: 15px;
+}
+.pop-up-windows h5{
+	font-weight: 600;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.pop-up-windows p{
+	margin-bottom: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 14px;
+}
+.pop-up-windows p input{
+	height: 25px;
+	width: 60px;
+	outline: none;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	background: #fff;
+	margin-left: 45px;
+}
+.pop-up-windows .tel-input,.pop-up-windows .carNum-input{
+	width: 81%;
+	height: 30px;
+	outline: none;
+	margin-bottom: 15px;
+	padding-left: 5px;
+	margin-left: 20px;
+	border-radius: 5px;
+	border: none;
+	border: 1px solid #d2d2d2;
+}
+.pop-up-windows button{
+	height: 30px;
+	width: 100px;
+	outline: none;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	background: #fff;
+	margin-top: 10px;
+}
+.pop-up-windows .change-pop-up{
+	margin-left: 55px;
+}
+/*暂无二维码*/
+.no-img{
+	line-height: 100px;
+	color: #000000;
+	text-align: center;
+}

@@ -1,0 +1,90 @@
+@charset "utf-8";
+html,body{
+	width: 100%;
+	height: 100%;
+	box-sizing:border-box;	  	
+}
+body{
+	background: url(../imgs/concat/bg.jpg) no-repeat;
+	background-size: 100%;
+	}
+.bg-box{
+	width: 100%;
+	height: 100%; 
+}
+
+/*意见反馈*/
+.feedback-section{
+	width: 100%;
+	height: 5.2rem;
+	padding: 0 0.3rem;
+	padding-top: 0.78rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.feedback-title{
+	color: #fff;
+	font-size: 0.14rem;	
+	margin-bottom: 0.095rem;
+}
+.feedback-section .your-idea{
+	width: 2.65rem;
+	height: 2.5rem;
+	border: 0.005rem solid #fff;
+	resize: none;
+	outline: none;
+	background: #121510;
+	border-radius: 0.1rem;
+	padding: 0.06rem;
+	margin-bottom: 0.12rem;
+	overflow: auto;
+	font-size: 0.12rem;
+	color: #fff;
+}
+.feedback-tip{
+	color: #fff;
+	font-size: 0.14rem;	
+}
+#submit{
+	background: linear-gradient(to right,#4853e5,#18d6ac);
+    color: #fff;
+    width: 2.65rem;
+    height: 0.45rem;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.45rem;
+    border: none;
+    outline: none;
+    border-radius: 0.225rem;
+    margin-top: 0.19rem;
+}
+
+/*留言成功提示*/
+.mark{
+	height: 100%;
+	width: 100%;
+	background: #333333;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	display: none;
+}
+.success-tip{
+	height: 0.8rem;
+	width: 2.5rem;
+	border-radius: 0.1rem;
+	background: #333333;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    display: none;
+}
+.success-tip p{
+	color: #fff;
+	font-size: 0.14rem;
+	line-height: 0.8rem;
+	text-align: center;
+}

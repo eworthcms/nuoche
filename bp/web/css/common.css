@@ -1,0 +1,193 @@
+@charset "utf-8";
+html,body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+a{text-decoration:none;}
+ul,ol,li{list-style: none;}
+img{border:0;display:block;}
+body{font-family:"微软雅黑";}
+b,strong{font-weight:100;}
+i,em{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:100;}
+.clearfix:after{content:".";clear:both;display:block;height:0;overflow:hidden;visibility: hidden;}
+/********************左侧导航栏********************/
+#terraceLeft-nav{
+	height: 720px;
+	/*width: 208px;*/
+	width: 14%;
+	background: #222f3c;
+	float: left;
+	position: fixed;
+	left: 0;
+}
+#logoBox {
+    width: 100%;
+    background: #1c2732;
+}
+#terraceLeft-nav h1{
+	height: 63px;
+	width: 156px;;
+	padding-top: 21px;
+	padding-left: 23px;
+	background: #1c2732;
+}
+#terraceLeft-nav .navList{
+	height: 636px;
+	width: 208px;	
+}
+.navList li{
+	height: 76px;
+	width: 185px;
+	padding-left: 23px;
+}
+.navList li img{
+	float: left;
+	margin: 29px 22px 0 0;
+}
+.navList li a{
+	float: left;
+	line-height: 76px;
+	color: #91a6bb;
+	font-size: 16px;
+}
+/*滚动条样式*/
+.ticket-list::-webkit-scrollbar {
+    width:8px;
+    height:10px;
+    background: #303030;
+}
+.ticket-list::-webkit-scrollbar-button{
+	display: none;
+}
+.ticket-list::-webkit-scrollbar-thumb{
+    border-radius:4px;
+}
+.ticket-list::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    border-radius: 10px;
+    /*height: 50px;*/
+    background-color: lightgray;
+}
+.ticket-list::-webkit-scrollbar-thumb{
+    /*width: 10px;*/
+    height: 5px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+.tableMess::-webkit-scrollbar {
+    width:8px;
+    height:10px;
+    background: #303030;
+}
+.tableMess::-webkit-scrollbar-button{
+	display: none;
+}
+.tableMess::-webkit-scrollbar-thumb{
+    border-radius:4px;
+}
+.tableMess::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    border-radius: 10px;
+    /*height: 50px;*/
+    background-color: lightgray;
+}
+.tableMess::-webkit-scrollbar-thumb{
+    height: 5px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+.selectHidden::-webkit-scrollbar {
+    width:8px;
+    height:10px;
+    background: #303030;
+}
+.selectHidden::-webkit-scrollbar-button{
+	display: none;
+}
+.selectHidden::-webkit-scrollbar-thumb{
+    border-radius:4px;
+}
+.selectHidden::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    border-radius: 10px;
+    /*height: 50px;*/
+    background-color: lightgray;
+}
+.selectHidden::-webkit-scrollbar-thumb{
+    height: 5px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+/*页码*/
+.pageNum{
+	background: #fff;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.pageNum em{
+	margin-top: -7px;
+	margin-right: 6px;
+}
+.pageNum em,.num{
+	line-height: 40px;
+	float: left;
+	color: #9aadc0;
+	font-size: 12px;	
+}
+.pageNum .num{
+	cursor: pointer;
+	line-height: 24px;
+	text-align: center;
+	display: block;
+	float: left;
+	margin-right: 6px;
+	border-radius: 3px;
+	border: 1px solid #eef5f9;
+	height: 24px;
+	width: 24px;
+}
+.pageNum .previousPage,.pageNum .lastPage{
+	width: 45px;
+}
+.pageNum .previousPage a,.pageNum .lastPage a{
+	font-size: 12px;
+}
+.allPages{
+	margin-right: 26px;
+}
+.first-num{
+	color: #049AE2;
+	background: #eef5f9;
+}
+.pageNum span a {
+    margin-left: 0;
+    line-height: 24px;
+}
+.terraceRight-page a {
+    line-height: 34px;
+    color: #c6d2dd;
+    margin-left: 467px;
+    font-size: 14px;
+}
+.ticket-list table td:nth-child(1) {
+    width: 8%; 
+    text-align: left;
+    padding-left: 17px;
+}
+/*搜索按钮样式*/
+.search-btn{
+	height: 26px;
+	border: none;
+	border: 1px solid #d2d2d2;
+	border-radius: 4px;
+	font-size: 12px;
+    color: #333;
+    outline: none;
+	padding-left: 4px;
+}
